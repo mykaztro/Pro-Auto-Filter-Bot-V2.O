@@ -29,7 +29,8 @@ Team [Mo Tech](https://Telegram.dog/Mo_Tech_YT)
 <a href="https://youtu.be/zDcckqRBIlM"><img src="https://img.shields.io/badge/How%20To%20Deploy-blue.svg?logo=Youtube"></a>
 <a href="https://youtu.be/zDcckqRBIlM"><img src="https://img.shields.io/youtube/views/zDcckqRBIlM?style=social">
 
-### Credits
+### 🧒 Credits
+
 
 * [InukaAsith](https://github.com/InukaAsith)
 * [Shahsad-klr](https://github.com/shahsad-klr)
