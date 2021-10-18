@@ -25,7 +25,7 @@ async def start(bot, update):
             await update.reply_text(
                 text="<b>🔊 𝗝𝗼𝗶𝗻 𝗢𝘂𝗿 𝗠𝗮𝗶𝗻 𝗰𝗵𝗮𝗻𝗻𝗲𝗹</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 📢 Join My Update Channel 📢", url=f"https://t.me/{MT_UPDATE}")]
+                    [ InlineKeyboardButton(text=" 📢 Join My Update Channel 📢", url=f"https://t.me/ottmovies_updates")
               ])
             )
             return
@@ -55,13 +55,13 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔔Join Main Channel🔔', url=f"https://t.me/{MT_CHANNEL}"
+                                    '🔔Join Main Channel🔔', url=f"https://t.me/joinchat/b2crtyaFjLRiMDQ1"
                                 )
                         ],
                         [
                             InlineKeyboardButton
                                 (
-                                    '🤖 Bot Updates🤖', url=f"t.me/{MT_UPDATES}"
+                                    '👥𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉👥', url=f"https://t.me/PCSupportGroup_18"
                                 )
                         ]
                     ]
@@ -73,8 +73,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('🗣️ Group', url=f'https://t.me/{MT_GROUP}'),
-        InlineKeyboardButton('📢 Channel', url =f'https://t.me/{MT_CHANNEL}')
+        InlineKeyboardButton('🗣️ Group', url=f'https://t.me/PCLinks'),
+        InlineKeyboardButton('📢 Channel', url =f'https://t.me/ottmovies_updates')
     ],[
         InlineKeyboardButton('🤔Help', callback_data="help"),
         InlineKeyboardButton('About😎', callback_data="about"),
@@ -99,7 +99,7 @@ async def help(bot, update):
         InlineKeyboardButton('Support', url='t.me/Mo_Tech_Group'),
         InlineKeyboardButton('Bot Updates', url=f't.me/{MT_UPDATES}')
     ],[
-        InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+        InlineKeyboardButton('👥𝖦𝗋𝗈𝗎𝗉👥', url=f'https://t.me/PCLinks')
     ],[   
         InlineKeyboardButton('🏠Home', callback_data='start'),
         InlineKeyboardButton('About😎', callback_data='about'),
