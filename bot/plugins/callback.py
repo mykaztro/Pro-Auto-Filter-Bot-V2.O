@@ -1603,14 +1603,14 @@ async def cb_about(bot, update: CallbackQuery):
     text=f"<i><u>Bot's Status</u></i>\n"
     text+=f"\n<b><i>Bot's Uptime:</i></b> <code>{time_formatter(time.time() - start_uptime)}</code>\n"
     text+=f"\n<b><i>Bot Funtion:</i></b> <i>Auto Filter Files</i>\n"
-    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/Mo_Tech_YT">Mo Tech YT</a>\n"""
-    text+="""\n<b><i>Source Code:</i></b> <a href="https://github.com/Mo_Tech_YT/Pro-Filter-Bot-V2.0">Source</a>"""
+    text+=f"""\n<b><i>Bot Support:</i></b> <a href="https://t.me/PCSupportGroup_18">𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉</a>\n"""
+    text+="""\n<b><i>Source Code:</i></b> <a href="https://t.me/comemanrepo/6">𝖢𝗅𝗂𝖼𝗄</a>"""
 
     buttons = [
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/Mo_Tech_Group"
+                    "My Dev ⚡", url="https://t.me/Sanoob_Achu_18"
                 ),
                 
             InlineKeyboardButton
@@ -1641,8 +1641,8 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('🗣️ Group', url=f'https://t.me/{MT_GROUP}'),
-            InlineKeyboardButton('📢 Channel', url =f'https://t.me/{MT_CHANNEL}')
+            InlineKeyboardButton('🗣️ Group', url=f'https://t.me/PCLinks'),
+            InlineKeyboardButton('📢 Channel', url =f'https://t.me/ottmovies_updates')
         ],[
             InlineKeyboardButton('🤔Help', callback_data="help"),
             InlineKeyboardButton('About😎', callback_data="about"),
@@ -1661,10 +1661,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "help":
         buttons = [[
-            InlineKeyboardButton('Support', url='t.me/Mo_Tech_Group'),
-            InlineKeyboardButton('Bot Updates', url=f't.me/{MT_UPDATES}')
+            InlineKeyboardButton('𝖲𝗎𝗉𝗉𝗈𝗋𝗍', url='https://t.me/PCSupportGroup_18'),
+            InlineKeyboardButton('𝖭𝖾𝗐 𝖱𝖾𝗅𝖾𝖺𝗌𝖾𝗌', url=f'https://t.me/ottmovies_updates')
         ],[
-            InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+            InlineKeyboardButton('👥𝖦𝗋𝗈𝗎𝗉👥', url=f'https://t.me/PCLinks')
         ],[   
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('About😎', callback_data='about'),
@@ -1683,7 +1683,7 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('🖥️ How To Own This Bot 🖥️', url=f'{MT_LINK}')
+            InlineKeyboardButton('👥𝖦𝗋𝗈𝗎𝗉👥', url=f'https://t.me/PCLinks')
         ],[
             InlineKeyboardButton('🏠Home', callback_data='start'),
             InlineKeyboardButton('Close❌️', callback_data='close')
