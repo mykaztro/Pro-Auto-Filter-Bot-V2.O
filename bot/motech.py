@@ -15,7 +15,7 @@ version must be made available.
 your main Channel Added from Heroku
 update"""
 """your Main Channel"""
-MT_UPDATES = "t.me/Mo_Tech_YT" # eg
+MT_UPDATES = "t.me/PCSupportGroup_18" # eg
 
-TEAM = """Team <b><a href="https://t.me/Mo_Tech_YT">Mo Tech YT</a></b>
+TEAM = """Team <b><a href="https://t.me/PCSupportGroup_18">𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉</a></b>
 """
